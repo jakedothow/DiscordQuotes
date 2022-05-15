@@ -24,4 +24,7 @@ electron.app.on("browser-window-created", (e, w) => {
 });
 
 // Load Discord
+if(config.asarPath == "") {
+    config.asarPath = __dirname.replace("/discordquotes", "");
+}
 require(config.asarPath);
