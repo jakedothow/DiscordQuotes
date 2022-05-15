@@ -20,4 +20,4 @@ On macOS, you can usually find your Discord install resources in `~/Applications
 - **Extract the zip file in the `app` folder.**
 **If you have BetterDiscord installed,** the `app` folder should already exist. Open the `index.js` file and copy the path in the `require` statement. Now unzip DiscordQuotes in that folder, it's okay to override the existing files. Now open the config file, and change `asarPath` to the path you just copied. All done, DiscordQuotes is now installed!
 
-	**If you DON'T have BetterDiscord installed,** you will need to create this folder yourself. Once you've done that, you're done! DiscordQuotes is now installed.
+	**If you DON'T have BetterDiscord installed,** you will need to create this folder yourself. Once you've done that, unzip DiscordQuotes in that folder, it's okay to override the existing files. You're done! DiscordQuotes is now installed.
