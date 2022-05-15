@@ -1,0 +1,19 @@
+{
+  "name": "discordquotes",
+  "version": "1.0.0",
+  "description": "Bring back the Discord quotes we all miss so much.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakedothow/DiscordQuotes.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "jake.how",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jakedothow/DiscordQuotes/issues"
+  },
+  "homepage": "https://github.com/jakedothow/DiscordQuotes#readme"
+}
