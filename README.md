@@ -19,9 +19,9 @@ On macOS, you can usually find your Discord install resources in `~/Applications
 ## Linux?
 On Linux, you will need to know where you installed your Discord. (eg. Flatpak, or locally like .tar.gz or .deb)
 
-- **Flatpak:** `/var/lib/flatpak/app/com.discordapp.Discord/current/active/files/discord/resources/`
+- **Flatpak:** `/var/lib/flatpak/app/com.discordapp.Discord/current/active/files/discord/resources`
 - **.tar.gz:** Your `resources` folder should be located where you extracted your Discord client.
-- **.deb:**
+- **.deb:** `/usr/share/discord/resources`
 
 ## Okay, I've found my path. What's next?
 - **Extract the zip file in the `app` folder.**
