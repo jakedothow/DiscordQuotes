@@ -15,8 +15,15 @@ DiscordQuotes has no installer. You'll need to manually put the files in place. 
 - **Locate your Discord install and enter the resources folder.**
 On Windows, you can find your Discord install resources in `%LocalAppdata%/Discord/app-*.*.****/resources`.
 On macOS, you can usually find your Discord install resources in `~/Applications/Discord.app/Contents/resources`.
-(TODO: Linux install path?)
 
+## Linux?
+On Linux, you will need to know where you installed your Discord. (eg. Flatpak, or locally like .tar.gz or .deb)
+
+- **Flatpak:** `/var/lib/flatpak/app/com.discordapp.Discord/current/active/files/discord/resources/`
+- **.tar.gz:** Your `resources` folder should be located where you extracted your Discord client.
+- **.deb:**
+
+## Okay, I've found my path. What's next?
 - **Extract the zip file in the `app` folder.**
 **If you have BetterDiscord installed,** the `app` folder should already exist. Open the `index.js` file and copy the path in the `require` statement. Now unzip DiscordQuotes in that folder, it's okay to override the existing files. Now open the config file, and change `asarPath` to the path you just copied. All done, DiscordQuotes is now installed!
 
